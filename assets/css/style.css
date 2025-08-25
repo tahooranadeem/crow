@@ -512,7 +512,7 @@ p {
 
     .about {
         padding-left: 5vw;
-        margin-top: 25vw;
+        margin-top: 40vw;
         height: 120vw;
     }
 
@@ -578,6 +578,13 @@ p {
         color: #FFDD00;
     }
 
+    .join .para {
+        font-size: 2.8vw;
+        margin-top: 2vw;
+    }
+.join .links a {
+    font-size: 3.8vw;
+}
     /* howtobuy */
 
     .howtobuy h1 {
@@ -587,7 +594,7 @@ p {
 
     .howtobuy .para {
         color: #000;
-        font-size: 2.5vw;
+        font-size: 3.2vw;
     }
 
 
@@ -653,7 +660,6 @@ p {
     .boxes_2 {
         margin-top: -5vw;
     }
-
 
     /* footer  */
 
