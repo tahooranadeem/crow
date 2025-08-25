@@ -1,0 +1,46 @@
+.bounce-horizontal {
+    animation: bounce-horizontal 1s ease infinite;
+}
+
+@keyframes bounce-horizontal {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.bounce_animation {
+    animation: bounce 2s ease infinite;
+}
+
+
+@media screen and (max-width: 480px) {
+    @keyframes bounce-horizontal {
+
+        0%,
+        100% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(5px);
+        }
+    }
+}
